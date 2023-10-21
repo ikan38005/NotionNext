@@ -70,7 +70,8 @@
 * { /* Or what selector you need */
   unicode-bidi: plaintext;
   text-align: start; /* Align text automatically left/right*/
-  
+}
+
 .notion {
   font-size: 18px:
   font-weight: 400;
