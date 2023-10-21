@@ -1740,6 +1740,8 @@ svg + .notion-page-title-text {
 }
 .notion-quote {
   padding: 0.2em 0.9em;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-collection {
