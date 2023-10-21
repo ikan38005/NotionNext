@@ -1,7 +1,7 @@
 const CONFIG = {
 
   HEADER_BUTTON_1_TITLE: 'Github开源',
-  HEDEAR_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
+  HEDEAR_BUTTON_1_URL: 'https://github.com/zadisia',
 
   HEADER_BUTTON_2_TITLE: '作者博客',
   HEDEAR_BUTTON_2_URL: 'https://blog.tangly1024.com/',
