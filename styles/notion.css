@@ -133,8 +133,6 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
-  unicode-bidi: plaintext;
-  text-align: start;
 }
 
 .notion-aside-table-of-contents {
@@ -1085,8 +1083,6 @@ code[class*='language-'] {
   padding-right: 16px;
   box-sizing: content-box;
   flex-shrink: 0;
-  unicode-bidi: plaintext;
-  text-align: start;
 }
 
 .notion-board-th-body {
@@ -1894,8 +1890,6 @@ svg + .notion-page-title-text {
   min-width: 0;
   font-size: 14px;
   @apply dark:text-gray-200
-  unicode-bidi: plaintext;
-  text-align: start;
 }
 
 .notion-collection-column-title-icon {
