@@ -133,6 +133,8 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-aside-table-of-contents {
