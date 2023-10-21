@@ -75,8 +75,6 @@
   color: var(--fg-color);
   caret-color: var(--fg-color);
   font-family: inherit;
-  unicode-bidi: plaintext;
-  text-align: start;
 }
 
 .notion > * {
@@ -732,6 +730,8 @@ svg.notion-page-icon {
   word-break: break-word;
   padding: 3px 2px !important;
   margin: 1px 0 !important;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-text:first-child {
