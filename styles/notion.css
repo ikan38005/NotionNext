@@ -124,8 +124,6 @@
 .notion-page-content-inner {
   position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .notion-aside {
@@ -135,6 +133,8 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-aside-table-of-contents {
@@ -152,6 +152,8 @@
   font-weight: 500;
   font-size: 1.1em;
   word-break: break-word;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-aside-table-of-contents .notion-table-of-contents-item {
@@ -389,6 +391,8 @@
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 1.2;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 summary > .notion-h {
@@ -553,6 +557,8 @@ summary > .notion-h {
   padding: 0.2em 0.9em;
   margin: 6px 0;
   font-size: 1.2em;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-hr {
@@ -645,6 +651,8 @@ svg.notion-page-icon {
   font-size: 85%;
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier,
     monospace;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-inline-underscore {
@@ -847,6 +855,8 @@ code[class*='language-'] {
   text-overflow: ellipsis;
   min-height: 24px;
   margin-bottom: 2px;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-bookmark-description {
@@ -959,6 +969,8 @@ code[class*='language-'] {
   margin-left: 8px;
   white-space: pre-wrap;
   word-break: break-word;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-toggle {
@@ -1073,6 +1085,8 @@ code[class*='language-'] {
   padding-right: 16px;
   box-sizing: content-box;
   flex-shrink: 0;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-board-th-body {
@@ -1880,6 +1894,8 @@ svg + .notion-page-title-text {
   min-width: 0;
   font-size: 14px;
   @apply dark:text-gray-200
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-collection-column-title-icon {
@@ -1923,6 +1939,8 @@ svg + .notion-page-title-text {
   overflow: hidden;
   word-break: break-word;
   border-right: 1px solid var(--fg-color-1);
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-table-cell:last-child {
@@ -1977,6 +1995,8 @@ svg + .notion-page-title-text {
   margin: 6px 0;
   font-size: 1em;
   /* color: var(--notion-gray); */
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-asset-wrapper-pdf>div{
