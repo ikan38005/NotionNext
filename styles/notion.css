@@ -1,5 +1,5 @@
 :root {
-  --fg-color: rgb(0, 0, 0);
+  --fg-color: rgb(85, 85, 85);
   --fg-color-0: rgba(55, 53, 47, 0.09);
   --fg-color-1: rgba(55, 53, 47, 0.16);
   --fg-color-2: rgba(55, 53, 47, 0.4);
@@ -67,8 +67,14 @@
   --notion-header-height: 45px;
 }
 
+* { /* Or what selector you need */
+  unicode-bidi: plaintext;
+  text-align: start; /* Align text automatically left/right*/
+  
 .notion {
-  font-size: 16px;
+  font-size: 18px:
+  font-weight: 400;
+  font-style: normal;
   line-height: 1.5;
   color: var(--fg-color);
   caret-color: var(--fg-color);
@@ -394,7 +400,7 @@ summary > .notion-h {
 .notion-h {
   position: relative;
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 2.5;
   padding: 3px 2px;
   margin-bottom: 1px;
   max-width: 100%;
@@ -724,7 +730,7 @@ svg.notion-page-icon {
 .notion-text {
   width: 100%;
   white-space: pre-wrap;
-  line-height: 1.5rem !important;
+  line-height: 1.9rem !important;
   word-break: break-word;
   padding: 3px 2px !important;
   margin: 1px 0 !important;
