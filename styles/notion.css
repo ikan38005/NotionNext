@@ -75,12 +75,12 @@
   color: var(--fg-color);
   caret-color: var(--fg-color);
   font-family: inherit;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion > * {
   padding: 3px 0;
-  unicode-bidi: plaintext;
-  text-align: start;
 }
 
 .notion * {
