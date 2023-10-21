@@ -402,6 +402,8 @@ summary > .notion-h {
   max-width: 100%;
   white-space: pre-wrap;
   word-break: break-word;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion-h1 {
