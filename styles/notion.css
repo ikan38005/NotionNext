@@ -67,11 +67,6 @@
   --notion-header-height: 45px;
 }
 
-* { /* Or what selector you need */
-  unicode-bidi: plaintext;
-  text-align: start; /* Align text automatically left/right*/
-}
-
 .notion {
   font-size: 18px;
   font-weight: 400;
@@ -80,6 +75,8 @@
   color: var(--fg-color);
   caret-color: var(--fg-color);
   font-family: inherit;
+  unicode-bidi: plaintext;
+  text-align: start;
 }
 
 .notion > * {
