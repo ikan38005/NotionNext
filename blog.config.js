@@ -13,7 +13,7 @@ const BLOG = {
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // Waktu mulai mode malam, jika salah, mode malam yang otomatis bergantung pada waktu akan dinonaktifkan.
 
   // Mulai dari versi 3.14.1, salam pembuka dapat dikonfigurasi di sini, dipisahkan oleh koma dalam bahasa Inggris, sehingga Anda dapat mendukung beberapa salam pembuka yang berbeda.
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Welcome, Students, Teachers, Readers, Reseachers, Good visitors, let's share with each other 🎉',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || "'Welcome, Students, Teachers, Readers, Reseachers, Good visitors, let's share with each other 🎉'",
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // Mendukung tipe Menu, mulai dari versi 3.12.0, semua tema akan secara bertahap mendukung konfigurasi menu tingkat kedua yang fleksibel, menggantikan jenis Halaman sebelumnya, konfigurasi ini adalah fitur eksperimental, secara default dinonaktifkan.
 
