@@ -2,7 +2,7 @@
 const BLOG = {
   // Penting! page_id！！！Duplikasi Template dari https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
-        process.env.NOTION_PAGE_ID || '',
+        process.env.NOTION_PAGE_ID || 'e37a58848c3b4921a69e0052e497a9a8',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // Jalur semu, saat diaktifkan, semua URL artikel akan berakhir dengan .html.
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // Selang waktu pembaruan konten (detik); dengan kata lain, setiap halaman memiliki periode statis murni selama 5 detik, selama periode ini tidak ada pengambilan data notion, meningkatkan efisiensi sumber daya Vercel dan percepatan akses, tetapi juga akan menyebabkan penundaan pembaruan artikel.
   THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // Tema saat ini, Anda dapat menemukan semua tema yang didukung di folder themes; Nama tema adalah nama folder, misalnya example, fukasawa, gitbook, heo, hexo, landing, matery, medium, next, nobelium, plog, simple
